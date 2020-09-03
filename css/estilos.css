@@ -1,0 +1,168 @@
+:root {
+    --textPrincipal: #f0cd5c;
+    --textSecundario: white;
+    --textalterno: black;
+    --fondoPrincipal: "PT Sans", sans-serif;
+    --botonPrimario: #fdca29;
+    --botonPrimarioCambio: #a88308;
+    --botonSecundario: #055ab4;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100%;
+}
+
+input {
+    margin: 0;
+    border-width: 0;
+}
+
+
+/*HEADER*/
+
+.hero {
+    background-image: url(../img/encabezado.jpg);
+    height: 90vh;
+    background-position: top center;
+    background-size: cover;
+}
+
+.contenedor {
+    max-width: 1350px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.titulo-header h1 {
+    color: var(--textPrincipal);
+    font-size: 3rem;
+    font-family: var(--fondoPrincipal);
+}
+
+.contenido-header {
+    padding-top: 10px;
+}
+
+.menu {
+    margin-top: 2.5rem;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--textSecundario);
+    font-family: var(--fondoPrincipal);
+    background-color: var(--botonPrimario);
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 0.2rem;
+}
+
+.menu a:hover {
+    background-color: var(--botonPrimarioCambio);
+}
+
+.validacion-datos {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.titulo-validacion {
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--fondoPrincipal);
+    color: var(--textSecundario);
+    margin: 1rem;
+}
+
+.validacion {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cedula {
+    margin: 0;
+    background-color: var(--textPrincipal);
+    padding: 10px 5px;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.boton {
+    font-family: var(--fondoPrincipal);
+    color: var(--textSecundario);
+    background-color: var(--botonSecundario);
+    margin: 10px 70px;
+    border-radius: 0.5rem;
+    padding: 10px 5px;
+    border-width: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.boton:hover {
+    background-color: var(--botonPrimarioCambio);
+}
+
+
+/*FOOTER*/
+
+.footer-principal {
+    background-color: var(--botonPrimario);
+}
+
+.footer-site {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes {
+    margin: 5px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fondoPrincipal);
+}
+
+.redes p {
+    margin: 20px;
+}
+
+i {
+    font-size: 35px;
+    color: var(--textalterno);
+    padding: 0.5rem;
+    margin: 5px;
+}
+
+.derechos {
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: var(--fondoPrincipal);
+}
+
+.derechos p {
+    margin: 20px;
+}
