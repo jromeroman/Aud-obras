@@ -316,3 +316,49 @@ input {
 .derechos p {
     margin: 20px;
 }
+
+
+/*LOGIN*/
+
+.login p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: var(--fondoPrincipal);
+    color: var(--textSecundario);
+    margin: 8px;
+}
+
+.ingreso-login {
+    margin-top: 3rem;
+    max-width: 98%;
+}
+
+.login {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.usuario-contrase {
+    padding: 0px 40px 0px 15px;
+    background-color: var(--textPrincipal);
+    border-radius: 10px;
+}
+
+.boton-login {
+    font-family: var(--fondoPrincipal);
+    color: var(--textSecundario);
+    background-color: var(--botonSecundario);
+    margin: 7px 7px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 7rem;
+    border-width: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.boton-login:hover {
+    background-color: var(--botonPrimarioCambio);
+}
